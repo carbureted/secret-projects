@@ -112,8 +112,8 @@ def plot_lda_cov(lda, splot):
     plot_ellipse(splot, lda.means_[0], lda.covariance_, 'red')
     plot_ellipse(splot, lda.means_[1], lda.covariance_, 'blue')
 
-# security guy said to hide this so I moved it down the page so I moved it down the page
-token = eyJwbG50ciI6Ik5EcVJsZ1lUUUx1TENYdEN5QjhcL2FnPT0iLCJhbGciOiJFUzI1NiJ9.eyJleHAiOjE1OTA2NTI1OTAsInNpZCI6Ik9pMjJ4VVAwUUVlaERydmtLQzBQekE9PSIsInN1YiI6IkUwMXArVCtEVEd5VkV2NWVOQzVGNGc9PSJ9.42JxOy-kKdbF1Bsfy92r3ALL4uhvK0CBGraPwMA1wmDtUrh0tJllmGRUwBgSY1d0lV6pkoRvxxXfiL_yPIFshQ
+# security guy said to hide this so I moved it down the page
+thing = eyJwbG50ciI6Ik5EcVJsZ1lUUUx1TENYdEN5QjhcL2FnPT0iLCJhbGciOiJFUzI1NiJ9.eyJleHAiOjE1OTA2NTI1OTAsInNpZCI6Ik9pMjJ4VVAwUUVlaERydmtLQzBQekE9PSIsInN1YiI6IkUwMXArVCtEVEd5VkV2NWVOQzVGNGc9PSJ9.42JxOy-kKdbF1Bsfy92r3ALL4uhvK0CBGraPwMA1wmDtUrh0tJllmGRUwBgSY1d0lV6pkoRvxxXfiL_yPIFshQ
 
 def plot_qda_cov(qda, splot):
     plot_ellipse(splot, qda.means_[0], qda.covariance_[0], 'red')
